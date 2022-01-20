@@ -38,7 +38,7 @@ body:
     attributes:
       label: Операционная система
       description: Напишите свою оперционноую систему вплодь до ревизии(сборки)
-      placeholder: Например: Windows 10 Pro 20H2 19042.1466
+      placeholder: 'Например: Windows 10 Pro 20H2 19042.1466'
     validations:
       required: true
   - type: input
@@ -46,4 +46,4 @@ body:
     attributes:
       label: Браузер (только для проблем с сайтом и форумом)
       description: Напишите название бразуера и его версию
-      placeholder: Например: Firefox 96.0.1 (32 бита)
+      placeholder: 'Например: Firefox 96.0.1 (32 бита)'
