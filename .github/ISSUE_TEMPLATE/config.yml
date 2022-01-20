@@ -1,1 +1,11 @@
+--- 
 blank_issues_enabled: false
+contact_links: 
+      - 
+        about: "Пожалуйтса ознакомьтесь с \"Troubleshooting\" перед тем как писать в канал alt:V."
+        name: "alt:V Troubleshooting. Устранение неполадок alt:V"
+        url: "https://docs.altv.mp/articles/troubleshooting/client.html"
+      - 
+        about: "Если возникла проблема с мультиплеером воспользуйтесь каналом Discord."
+        name: "Канал поддержки alt:V"
+        url: "https://discord.altv.mp/"
