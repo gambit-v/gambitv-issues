@@ -1,0 +1,49 @@
+name: Сообщение об баге или недоработке
+description: Сообщить об ошибке на проекте
+labels: ['Class: bug']
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Описание проблемы
+      description: Опишите конкретную проблему.
+      placeholder: Четкое и краткое описание того, что представляет собой баг или недоработка.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Шаги воспроизведения
+      description: Опишите, как воспроизвести проблему
+      placeholder: Четкий и краткий список шагов по воспроизведению проблемы.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Как должно быть на самом деле
+      description: Опишите, как должно быть на самом деле
+      placeholder: Четкое и краткое описание того, чего вы ожидали, что должно было произойти.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Дополнительный контент
+      description: Дополнительный контент, который бы вы хотели добавить
+      placeholder: Добавьте любой скриншот или видео в данное поле.
+  - type: input
+    id: os
+    attributes:
+      label: Операционная система
+      description: Напишите свою оперционноую систему вплодь до ревизии(сборки)
+      placeholder: Например: Windows 10 Pro 20H2 19042.1466
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Браузер (только для проблем с сайтом и форумом)
+      description: Напишите название бразуера и его версию
+      placeholder: Например: Firefox 96.0.1 (32 бита)
